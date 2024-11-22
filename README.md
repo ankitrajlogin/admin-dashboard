@@ -11,6 +11,21 @@ Welcome to the **React Admin Dashboard**! This project provides a powerful, inte
 - **Toggle User Status**: Easily toggle between active/inactive status of users.
 - **Interactive Buttons**: Smooth button animations, hover effects, and transitions for a more interactive UI.
 
+
+## User Management. 
+![image](https://github.com/user-attachments/assets/60720dce-cd3d-4776-8a6e-ad914273562f)
+
+
+## Role Management. 
+![image](https://github.com/user-attachments/assets/7ce72a2d-d1fe-4b71-9147-b2a39f642b46)
+
+
+## Permission Management. 
+![image](https://github.com/user-attachments/assets/494d9f92-9e28-41fa-a949-8511e11e0ad7)
+
+
+
+
 ## 🚀 Getting Started
 
 To get started with this project, follow these steps:
