@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fc;
+}
+
+/* Main container for permission management */
+.permission-management-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Message */
+.message {
+  text-align: center;
+  color: #008000;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Permissions Section Heading */
+.permissions-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+}
+
+/* Permissions list container */
+.permissions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each role container */
+.role-container {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Role name styling */
+.role-name {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Permission row layout */
+.permission-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+  gap: 15px;
+}
+
+/* Each individual permission block */
+.permission {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Label styling for permission checkboxes */
+.permission-label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Styling for permission checkboxes */
+.permission-checkbox {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .permission-management-container {
+    padding: 15px;
+  }
+
+  .permissions-heading {
+    font-size: 1.3rem;
+  }
+
+  .role-name {
+    font-size: 1.2rem;
+  }
+
+  /* Stack permissions vertically on medium screens */
+  .permission-row {
+    grid-template-columns: 1fr 1fr; /* 2 columns for tablets */
+  }
+
+  .permission-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .permission-management-container {
+    padding: 10px;
+  }
+
+  .permissions-heading {
+    font-size: 1.2rem;
+  }
+
+  .role-name {
+    font-size: 1rem;
+  }
+
+  /* Stack permissions vertically on small screens */
+  .permission-row {
+    grid-template-columns: 1fr; /* 1 column for small screens */
+  }
+
+  .permission-checkbox {
+    width: 16px;
+    height: 16px;
+  }
+}

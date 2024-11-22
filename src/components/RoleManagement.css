@@ -1,0 +1,151 @@
+/* RoleManagement.css */
+
+/* Overall Container */
+.role-management-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header Styling */
+  h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Form Container */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .role-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .add-role-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-role-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Message Styling */
+  .message {
+    color: #555;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Role List Styling */
+  .role-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .role-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .role-item:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .delete-btn {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .role-input {
+      width: 80%;
+    }
+  
+    .add-role-btn {
+      width: 80%;
+    }
+  
+    .role-item {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 24px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    .role-input, .add-role-btn {
+      font-size: 14px;
+    }
+  
+    .role-item {
+      font-size: 14px;
+    }
+  
+    .delete-btn {
+      font-size: 12px;
+    }
+  }
+  

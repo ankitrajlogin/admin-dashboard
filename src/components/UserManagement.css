@@ -1,0 +1,178 @@
+/* UserManagement.css */
+.user-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f7f6;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #333;
+  }
+  
+  .form-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field, .select-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus, .select-field:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .add-user-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-user-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .user-list {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .user-item {
+    background-color: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .user-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+
+
+  /* Style for the Toggle Status button */
+.status-toggle-button {
+  background-color: #4CAF50; /* Default green color for active status */
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Hover effect */
+.status-toggle-button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+  transform: translateY(-2px); /* Slight upward movement for a subtle effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus effect */
+.status-toggle-button:focus {
+  outline: none;
+  border: 2px solid #005f3b; /* Add a border when button is focused */
+  background-color: #388e3c;
+}
+
+/* Disabled state for the button (when status is being toggled or not available) */
+.status-toggle-button:disabled {
+  background-color: #b5b5b5; /* Gray background for disabled state */
+  color: #d6d6d6; /* Light gray text */
+  cursor: not-allowed; /* Cursor changes to show the button is disabled */
+  box-shadow: none; /* Remove shadow when disabled */
+}
+
+/* Additional styles for small screens (responsive design) */
+@media (max-width: 768px) {
+  .status-toggle-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .status-toggle-button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .user-management-container {
+      padding: 10px;
+    }
+  
+    .form-container {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .user-list {
+      width: 100%;
+    }
+  }
+ 
+  
