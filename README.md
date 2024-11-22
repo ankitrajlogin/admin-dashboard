@@ -3,12 +3,12 @@
 Welcome to the **React Admin Dashboard**! This project provides a powerful and interactive dashboard built with **React** for managing users, roles, and permissions. It comes with a sleek and responsive design that ensures a smooth user experience while managing application data.
 
 ## Folder Structure. 
-/src
-  /components    # React components for the dashboard UI
-  /services      # API services for handling user and role management
-  App.js         # Main App component, renders the entire dashboard
-  index.js       # Entry point for the React application
-  index.css      # Global CSS file for the application
+-/src
+-  /components    # React components for the dashboard UI
+-  /services      # API services for handling user and role management
+-  App.js         # Main App component, renders the entire dashboard
+-  index.js       # Entry point for the React application
+-  index.css      # Global CSS file for the application
 
 
 ## 🚀 Features
