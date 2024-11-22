@@ -1,15 +1,48 @@
 # React Admin Dashboard
 
-Welcome to the **React Admin Dashboard**! This project provides a powerful, interactive, and responsive dashboard for managing users, roles, and permissions. It's built with **React** and features a sleek design to give you a pleasant experience while managing your application’s users and permissions.
+Welcome to the **React Admin Dashboard**! This project provides a powerful and interactive dashboard built with **React** for managing users, roles, and permissions. It comes with a sleek and responsive design that ensures a smooth user experience while managing application data.
 
-## 📝 Features
+## Folder Structure. 
+/src
+  /components    # React components for the dashboard UI
+  /services      # API services for handling user and role management
+  App.js         # Main App component, renders the entire dashboard
+  index.js       # Entry point for the React application
+  index.css      # Global CSS file for the application
 
-- **User Management**: Add, update, or delete users with ease.
-- **Role Management**: Manage user roles (Admin, Editor, Viewer) and assign them to users.
-- **Permission Management**: Customize permissions for each role (Read, Write, Edit) using checkboxes.
-- **Responsive Design**: Fully responsive UI for seamless interaction on both desktop and mobile devices.
-- **Toggle User Status**: Easily toggle between active/inactive status of users.
-- **Interactive Buttons**: Smooth button animations, hover effects, and transitions for a more interactive UI.
+
+## 🚀 Features
+
+### Major Features:
+- **User Management**: 
+  - Add new users, assign roles, and set their status to Active or Inactive.
+  - Toggle user status (Active/Inactive) with a single click.
+  - Users can have different roles like Admin, Editor, Viewer.
+
+- **Role Management**:
+  - Admins can create new roles and assign them to users.
+  - **Important**: You **cannot delete a role** that is currently assigned to a user.
+  - Role-based permissions (Read, Write, Edit) are associated with each role.
+
+- **Permission Management**:
+  - Manage permissions for each role (Admin, Editor, Viewer) by toggling checkboxes.
+  - Modify **Read**, **Write**, and **Edit** permissions for each role.
+  - Permissions are updated immediately for the assigned users.
+
+### Minor Features:
+- **Responsive Design**: The dashboard adapts to any screen size (mobile, tablet, desktop).
+- **Smooth UI Transitions**: Interactive buttons with hover effects and smooth transitions.
+- **User-Friendly Interface**: Clean, intuitive interface with simple forms for adding, updating, and deleting users, roles, and permissions.
+- **Real-Time Data Handling**: Changes made to users, roles, or permissions are reflected immediately.
+
+## 📝 Getting Started
+
+To get started with this project locally, follow these steps:
+
+### 1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-admin-dashboard.git
+
 
 
 ## User Management. 
